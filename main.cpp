@@ -62,7 +62,7 @@ int main()
 
 void InitGame()
 {
-	player.zicc = LoadTexture("resources/zicc.png");
+	player.zicc = LoadTexture("resources/zicc.png"); //change this to the file path in windows explorer if the texture is not loading. use / not \
 	player.zicc.width = 55;
 	player.zicc.height = 55;
 	player.velocity = 3;
